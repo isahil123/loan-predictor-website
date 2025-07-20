@@ -1,0 +1,201 @@
+ApplicantIncome,LoanAmount,CreditScore,Education,SelfEmployed,LoanApproved
+4146,174,666,Not Graduate,Yes,1
+2028,184,700,Graduate,No,
+,,740,Graduate,No,1
+3955,475,466,Graduate,Yes,1
+3613,188,304,Not Graduate,Yes,0
+2127,104,447,Graduate,No,1
+2200,893.3663641,829,Graduate,Yes,
+5749,334,1372.134064,Graduate,Yes,1
+8013,,,Graduate,No,0
+5238,229,772,Not Graduate,Yes,
+8044,220,,Not Graduate,Yes,0
+2490,320,404,Not Graduate,Yes,0
+8144,,618,Graduate,No,0
+6219,292,624,Not Graduate,No,1
+9777,202,777,Graduate,Yes,0
+1726,161,713,Not Graduate,No,0
+4979,494,503,Not Graduate,Yes,0
+5052,421,812,Graduate,Yes,0
+7365,452,480,Graduate,Yes,
+1265,134,610,Graduate,No,0
+4829,,598,Not Graduate,No,3.054234268
+3245,216,657,Not Graduate,Yes,1
+5396,893.3663641,833,Not Graduate,Yes,
+2262,105,845,Graduate,Yes,1
+3525,,801,Graduate,No,0
+6943,304,661,Not Graduate,Yes,1
+9346,149,569,Not Graduate,No,1
+4172,365,782,Not Graduate,No,
+7596,463,509,Graduate,No,1
+7917,466,732,Not Graduate,Yes,3.054234268
+5370,893.3663641,531,Graduate,Yes,0
+,,784,Not Graduate,Yes,0
+6801,416,655,Not Graduate,No,1
+7929,175,472,Graduate,No,1
+,419,788,Not Graduate,Yes,1
+3841,352,,Not Graduate,Yes,0
+2319,458,,Not Graduate,Yes,3.054234268
+,390,347,Not Graduate,Yes,0
+3649,158,496,Not Graduate,Yes,
+2210,423,522,Graduate,Yes,0
+9365,278,,Graduate,Yes,1
+19290.6235,425,1372.134064,Graduate,Yes,1
+1223,243,525,Graduate,Yes,
+2336,126,708,Not Graduate,No,1
+3628,893.3663641,624,Not Graduate,Yes,0
+1688,366,716,Not Graduate,No,3.054234268
+1389,321,507,Graduate,Yes,0
+1563,259,440,Graduate,Yes,1
+7280,167,,Not Graduate,Yes,0
+7721,232,664,Not Graduate,No,1
+7091,221,448,Graduate,Yes,0
+6239,108,541,Not Graduate,Yes,1
+1631,437,806,Graduate,No,1
+4790,476,805,Graduate,No,1
+9766,313,802,Not Graduate,Yes,1
+2510,448,773,Not Graduate,Yes,3.054234268
+4103,424,608,Graduate,No,1
+6101,165,544,Graduate,No,1
+9689,270,550,Not Graduate,No,3.054234268
+1384,115,1372.134064,Graduate,No,1
+7708,461,827,Graduate,Yes,1
+1132,267,,Not Graduate,No,0
+1909,,,Not Graduate,Yes,1
+5221,893.3663641,787,Not Graduate,Yes,
+2068,325,388,Graduate,No,0
+1149,204,746,Not Graduate,No,
+4009,151,579,Graduate,Yes,0
+2488,,673,Graduate,Yes,0
+6296,207,439,Graduate,No,1
+6150,195,779,Not Graduate,Yes,1
+1316,157,,Graduate,Yes,1
+2861,287,641,Not Graduate,No,0
+5364,107,471,Not Graduate,Yes,1
+2685,251,,Graduate,Yes,
+8265,374,801,Not Graduate,No,0
+5527,329,693,Not Graduate,Yes,1
+8987,418,366,Not Graduate,No,1
+7849,203,423,Graduate,Yes,3.054234268
+19290.6235,424,444,Not Graduate,Yes,0
+,314,374,Graduate,Yes,1
+2624,893.3663641,637,Graduate,Yes,1
+9635,215,432,Graduate,Yes,1
+6029,187,478,Graduate,Yes,1
+9703,324,432,Graduate,Yes,1
+8238,333,816,Graduate,Yes,0
+1713,182,381,Graduate,No,0
+19290.6235,467,483,Not Graduate,No,0
+7603,492,1372.134064,Not Graduate,No,1
+9628,206,435,Graduate,Yes,0
+1833,399,,Not Graduate,Yes,1
+7943,488,408,Not Graduate,Yes,1
+9733,,597,Graduate,No,1
+8090,,769,Graduate,No,1
+3102,362,780,Not Graduate,Yes,1
+,153,459,Not Graduate,Yes,1
+6056,,421,Not Graduate,Yes,1
+7336,184,730,Graduate,Yes,1
+8840,258,801,Graduate,No,1
+4447,195,568,Not Graduate,Yes,1
+9171,475,568,Not Graduate,No,
+1969,350,323,Not Graduate,No,0
+2096,265,426,Not Graduate,Yes,0
+19290.6235,342,,Not Graduate,No,1
+6323,470,524,Graduate,No,1
+1992,446,675,Not Graduate,No,0
+9946,185,704,Not Graduate,Yes,0
+1803,282,,Not Graduate,No,0
+9544,412,317,Not Graduate,No,1
+3479,457,813,Graduate,No,1
+3103,167,746,Not Graduate,Yes,0
+2675,160,525,Graduate,Yes,1
+9066,326,579,Graduate,Yes,1
+6539,111,1372.134064,Not Graduate,Yes,
+8598,350,694,Not Graduate,No,1
+5900,460,509,Graduate,Yes,1
+4114,484,448,Graduate,No,1
+1955,893.3663641,,Graduate,No,1
+,118,367,Not Graduate,No,0
+,414,768,Graduate,No,0
+,185,536,Not Graduate,No,1
+,461,793,Not Graduate,Yes,1
+,358,529,Graduate,Yes,1
+19290.6235,478,428,Graduate,No,3.054234268
+3449,414,416,Not Graduate,Yes,0
+9969,,499,Not Graduate,Yes,1
+6578,189,404,Graduate,No,0
+2637,378,719,Graduate,Yes,0
+6537,252,819,Not Graduate,Yes,1
+2029,479,1372.134064,Not Graduate,Yes,3.054234268
+5472,203,,Not Graduate,No,1
+4146,336,636,Not Graduate,No,
+,316,514,Graduate,Yes,1
+8055,465,470,Not Graduate,No,1
+,239,412,Not Graduate,No,1
+1414,,848,Not Graduate,Yes,
+6910,281,755,Graduate,Yes,0
+7144,212,744,Not Graduate,No,0
+1514,219,1372.134064,Not Graduate,No,0
+9594,430,536,Not Graduate,Yes,1
+8742,461,351,Graduate,Yes,0
+7196,356,780,Not Graduate,No,1
+19290.6235,423,466,Graduate,No,0
+7831,893.3663641,821,Not Graduate,Yes,0
+1240,,517,Not Graduate,Yes,1
+4571,152,719,Not Graduate,No,0
+5288,181,784,Not Graduate,Yes,
+1697,280,358,Graduate,Yes,1
+,488,516,Not Graduate,Yes,
+9237,,,Not Graduate,No,0
+1828,128,358,Not Graduate,Yes,0
+,377,626,Graduate,Yes,1
+1464,370,1372.134064,Not Graduate,No,0
+19290.6235,205,563,Graduate,Yes,1
+19290.6235,476,700,Not Graduate,Yes,1
+6844,493,558,Graduate,No,1
+7220,893.3663641,1372.134064,Not Graduate,Yes,1
+3594,305,349,Graduate,No,0
+3577,,340,Graduate,No,0
+9840,123,721,Not Graduate,No,1
+1292,267,307,Not Graduate,Yes,1
+6331,416,413,Not Graduate,Yes,3.054234268
+4061,440,518,Not Graduate,No,0
+9441,351,526,Graduate,Yes,1
+19290.6235,,,Not Graduate,Yes,1
+7763,400,814,Not Graduate,Yes,0
+,446,457,Graduate,No,1
+8173,125,448,Graduate,No,0
+3674,,823,Graduate,No,0
+4397,299,571,Graduate,No,0
+19290.6235,419,519,Not Graduate,Yes,0
+,431,553,Not Graduate,Yes,1
+2277,378,537,Graduate,No,1
+4066,307,366,Not Graduate,Yes,0
+9066,131,575,Graduate,No,1
+9682,420,809,Not Graduate,Yes,0
+6375,311,510,Not Graduate,Yes,0
+2395,208,485,Graduate,Yes,1
+1424,286,399,Not Graduate,No,1
+2696,273,373,Not Graduate,Yes,1
+5415,236,745,Graduate,Yes,0
+2774,270,535,Graduate,No,
+6430,438,785,Not Graduate,Yes,1
+8989,403,687,Graduate,Yes,0
+6526,161,367,Not Graduate,Yes,0
+6105,232,,Graduate,No,0
+1425,198,1372.134064,Graduate,Yes,1
+8260,288,736,Graduate,No,1
+9905,494,,Not Graduate,No,
+2678,288,801,Graduate,No,1
+2674,302,396,Graduate,Yes,1
+9757,151,467,Not Graduate,No,1
+2349,469,647,Not Graduate,Yes,0
+7206,249,688,Not Graduate,No,1
+1202,160,528,Graduate,No,0
+6645,370,316,Graduate,No,1
+,253,642,Graduate,Yes,1
+,156,508,Not Graduate,No,
+4269,213,352,Not Graduate,No,0
+1523,893.3663641,769,Not Graduate,No,0
+2518,241,371,Graduate,Yes,0
