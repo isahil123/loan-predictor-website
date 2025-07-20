@@ -1,2 +1,2 @@
-# loan-predictor-website
-this website is based  on loan  to be approved for  someone or not
+Loan Approval Predictor
+The Loan Approval Predictor is a web-based machine learning application built with Python, Dash, and Plotly. It predicts loan approval based on applicant features like income, loan amount, credit score, education level, and self-employment status. The app uses Logistic Regression and Decision Tree models for binary classification and applies NLP preprocessing (using NLTK) for the education level feature. Users can input data via a web interface and view predictions with a probability bar chart.
