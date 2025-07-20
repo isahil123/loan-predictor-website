@@ -15,17 +15,15 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 
-# Download required NLTK data
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-# Initialize NLP tools
 stop_words = set(stopwords.words('english'))
 ps = PorterStemmer()
 lemmatizer = WordNetLemmatizer()
 
-# Function for text preprocessing
+
 def preprocess_text(text):
     if isinstance(text, str):
         tokens = word_tokenize(text.lower())
@@ -94,7 +92,7 @@ def load_and_preprocess_data(file_path='loan_data.csv'):
         df = pd.read_csv(file_path)
     except FileNotFoundError:
         print("CSV file not found. Using sample data.")
-        # Sample data as fallback (replace with your CSV data if needed)
+        # Sample data as  (agar csv na chle toh)
         data = {
             'ApplicantIncome': [50000, 60000, 45000, 80000, 30000],
             'LoanAmount': [200000, 150000, 100000, 300000, 80000],
@@ -108,7 +106,7 @@ def load_and_preprocess_data(file_path='loan_data.csv'):
     print("Initial dataset shape:", df.shape)
     print("Initial LoanApproved values:", df['LoanApproved'].value_counts(dropna=False))
 
-    # Clean LoanApproved: Convert invalid values to NaN, keep only 0 or 1
+    # invalid -removed 
     df['LoanApproved'] = pd.to_numeric(df['LoanApproved'], errors='coerce')
     df = df[df['LoanApproved'].isin([0, 1])].copy()  # Keep only valid 0/1 values
     df = df.dropna(subset=['LoanApproved'])  # Ensure no NaN in LoanApproved
@@ -119,23 +117,23 @@ def load_and_preprocess_data(file_path='loan_data.csv'):
     num_cols = ['ApplicantIncome', 'LoanAmount', 'CreditScore']
     cat_cols = ['Education', 'SelfEmployed']
 
-    # Impute missing numerical values
+    #did imputing
     num_imputer = SimpleImputer(strategy='mean')
     df[num_cols] = num_imputer.fit_transform(df[num_cols])
 
-    # Impute missing categorical values
+    
     cat_imputer = SimpleImputer(strategy='most_frequent')
     df[cat_cols] = cat_imputer.fit_transform(df[cat_cols])
 
-    # Process text data
+    # text data
     df['education_processed'] = df['Education'].apply(preprocess_text)
     df['SelfEmployed'] = df['SelfEmployed'].map({'Yes': 1, 'No': 0})
 
-    # TF-IDF for text features
+    # tfidf
     tfidf = TfidfVectorizer(max_features=100)
     text_features = tfidf.fit_transform(df['education_processed']).toarray()
 
-    # Combine numeric and text features
+    # numeric text feature combined
     numeric_features = df[['ApplicantIncome', 'LoanAmount', 'CreditScore', 'SelfEmployed']].values
     X = pd.DataFrame(numeric_features, columns=['ApplicantIncome', 'LoanAmount', 'CreditScore', 'SelfEmployed'])
     X = pd.concat([X, pd.DataFrame(text_features, columns=[f'text_{i}' for i in range(text_features.shape[1])])], axis=1)
@@ -144,7 +142,7 @@ def load_and_preprocess_data(file_path='loan_data.csv'):
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(X)
 
-    # Ensure y is aligned with X
+    #x y resolved .
     y = df['LoanApproved'].values
 
     print("Final X shape:", X_scaled.shape)
@@ -165,7 +163,7 @@ def train_models(X, y):
 
     return lr_model, dt_model, lr_accuracy, dt_accuracy
 
-# Prediction function
+# Predictiion 
 def predict_loan(model, scaler, tfidf, feature_names, income, loan_amount, credit_score, education, self_employed):
     education_processed = preprocess_text(education)
     text_features = tfidf.transform([education_processed]).toarray()
@@ -184,14 +182,14 @@ def predict_loan(model, scaler, tfidf, feature_names, income, loan_amount, credi
 
     return prediction, probability
 
-# Initialize Dash app
+#  Dash app
 app = dash.Dash(__name__)
 
-# Load and train models
+# model training
 X, y, scaler, tfidf, feature_names = load_and_preprocess_data()
 lr_model, dt_model, lr_accuracy, dt_accuracy = train_models(X, y)
 
-# Dash layout
+# layout
 app.layout = html.Div([
     html.H1('Loan Approval Predictor', style={'textAlign': 'center'}),
     html.Div([
